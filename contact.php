@@ -1,9 +1,9 @@
 <?php
     $name = $_POST['name'];
     $email = $_POST['email'];
+    $subject = $_POST['subject'];
     $message = $_POST['message'];
     $to = 'jeduhay@yahoo.com';
-    $subject = $_POST['subject'];
     $human = $_POST['human'];
 
     $body = "From: $name\n E-Mail: $email\n Message:\n $message";
