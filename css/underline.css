@@ -15,7 +15,7 @@ WOW + div span:before, WOW + div span:after {
   height: 2px;
   margin: 5px 0 0;
   transition: all 0.2s ease-in-out;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
   opacity: 0;
 }
 WOW + div span.hover-3:before {
