@@ -84,7 +84,7 @@ header .navbar {
 }
 header .navbar-brand {
   padding-top: 10px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 header .navbar-default {
   background: none;
