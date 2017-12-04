@@ -836,15 +836,15 @@ footer .footer-manu ul li a:hover {
 }
 
 .transparent img {
-  transition:.4s ease;
+  transition:.5s ease;
 }
 
 .transparent img:hover {
   /*-webkit-transform:scale(1.05);
   -ms-transform:scale(1.05);
   transform:scale(1.05);*/
-  transition:.4s ease;
-  opacity:.8;
+  transition:.5s ease;
+  opacity:.85;
 }
 .learn a {
   color: #2d6594;
