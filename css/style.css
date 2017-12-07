@@ -3,6 +3,8 @@
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 @import url(http://fonts.googleapis.com/css?family=Geometria);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
 /* var text-decoration */
 /*--
 	Common Css
@@ -11,19 +13,11 @@ html {
   overflow-y: scroll;
 }
 body {
-  font-family: 'Varela Round';
+  font-family: 'Quicksand';
   -webkit-font-smoothing: antialiased;
 }
 img {
   width: 100%;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Geometria', sans-serif;
 }
 
 h1 {
@@ -47,6 +41,11 @@ h4 {
 h5 {
   font-size: 10pt;
   font-weight: 800;
+}
+h6 {
+  font-family: 'Oswald', sans-serif;
+  font-size:30pt;
+  font-weight:1600;
 }
 p {
   font-size: 9pt;
