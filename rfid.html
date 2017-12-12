@@ -31,6 +31,9 @@
     <script src="js/jquery.counterup.js"></script>
     <script src="js/touch.js"></script>
 
+    <!-- Lightbox -->
+  	<link type="text/css" rel="stylesheet" href="release/featherlight.min.css" />
+
     <script src="js/main.js"></script>
 
   </head>
@@ -80,12 +83,6 @@
                           <span class="hover hover-3"><a href="img/Josh-Duhay-Resume.pdf" target="_blank">Resume</span></a>
                         </div>
                       </li>
-                      <!-- <li>
-                        <WOW></WOW>
-                        <div style="padding-left:25px;">
-                          <span class="hover hover-3"><a href="blog.html">Blog</span></a>
-                        </div>
-                      </li> -->
                     </ul>
                   </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -116,25 +113,32 @@
       <!-- INTRO -->
       <div class="container">
         <div class="row">
+          <div class="col-md-6 col-md-offset-3" align="middle">
+            <h4>Expedition at Birch Aquarium</h4>
+            <q><i>Birch Aquarium at Scripps aims to promote ocean conservation
+              and education by serving as the public outreach center for
+              Scripps Institute of Oceanography at University of California,
+              San Diego. Opening 2018, Expedition will showcase the
+              global efforts made by Scripps to engage visitors in understanding
+              global phenomena at a human scale and human impact on a global scale.
+            </q></i>
+          </div>
+        </div>
+        <br>
+
+        <!-- TITLE -->
+        <div class="row">
           <div class="col-md-6 col-md-offset-3">
             <h6>RFID Pathways</h6>
           </div>
         </div>
+
+        <!-- BODY -->
         <div class="row">
           <div class="col-md-6 col-md-offset-3">
-            <h2>About the Client</h2>
-            <p>Birch Aquarium at Scripps aims to promote ocean conservation and education by serving
-               as the public outreach center for Scripps Institute of Oceanography at University of
-               California, San Diego. In preparation for Expedition (opening May 2018), they seek to
-               engage visitors in understanding global phenomena at a human scale and human impact
-               on a global scale.
-              </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <h2>Project Brief</h2>
-            <p>From July – September 2017, I worked within a multidisciplinary team to research and design ways to
+            <!-- <h2>Project Brief</h2> -->
+            <p>
+              From July – September 2017, I worked within a multidisciplinary team to research and design ways to
               facilitate interaction and learning at museum exhibits through the use of RFID technology. Under the
               guidance of EnVision Maker Studio and in collaboration with Birch Aquarium at Scripps, we were
               responsible for delivering design updates, budget and continuity reports, and a working
@@ -142,10 +146,126 @@
               team and performed the following tasks:
             </p>
             <ul>
-              <li>Front-end web development (HTML, CSS, JavaScript)</li>
-              <li>Graphic design (Adobe Photoshop, Adobe Illustrator)</li>
-              <li>Rapid prototyping (user testing, wireframing, heuristic evaluation)</li>
+              <li>
+                Front-end web development (HTML, CSS, JavaScript)
+              </li>
+              <li>
+                Graphic design (Adobe Photoshop, Adobe Illustrator)
+              </li>
+              <li>
+                Rapid prototyping (user testing, wireframing, heuristic evaluation)
+              </li>
             </ul>
+            <br>
+            <h2 style="font-size:15pt;">Personalizing Aquarium Experiences Using RFID Technology</h2>
+
+            <a href="img/RFID-Demo.png" data-featherlight="image"><img src="img/RFID-Demo.png"></img></a>
+
+            <!-- <img src="img/RFID-Demo.png"></img> -->
+            <p>
+              Museums and aquariums across the world are implementing new technological
+              features to make their exhibits more interactive and engaging for visitors.
+              Birch Aquarium seeks to transform their approach by utilizing radio-frequency
+              identification (RFID) technology as an inexpensive yet effective way to immerse
+              visitors into the research being presented.
+            </p>
+            <p>
+              Upon entry into the aquarium, visitors may register their preferences (e.g.,
+              language) to RFID cards that allow each individual to receive personalized
+              information while touring the exhibits.
+            </p>
+            <p>
+               How can exhibit information and interaction be improved to better suit
+               the personal and educational needs of each individual visitor?
+            </p>
+            <br>
+            <div id="divider"></div>
+            <h2>Step 1: Research</h2>
+            <!-- people who learn what they want to learn = profit-->
+            <p>
+              We conducted on-site research at Birch Aquarium and observed that few visitors
+              actually read the existing exhibit displays. We asked around and learned the following:
+            </p>
+            <ul>
+              <li>
+                The information was not relevant to their individual interests.
+              </li>
+              <!-- <br> -->
+              <li>
+                The displays were static and not fun to look at.
+              </li>
+              <!-- <br> -->
+              <li>
+                They would rather just look at the exhibit itself rather than read about it.
+              </li>
+            </ul>
+            <br>
+            <p>
+              We then performed a competitive analysis on other technologically-driven museums
+              and learned the following to address the issues at Birch:
+            </p>
+            <ul>
+              <li>
+                Visitors feel more engaged when they are given the choice to learn what aligns
+                most with their own interests and personal motives for visiting.
+              </li>
+              <!-- <br> -->
+              <li>
+                Interacting with displays is an effective way for visitors to learn
+                and retain information.
+              </li>
+              <!-- <br> -->
+              <li>
+                After leaving the museum, visitors should be given the option to access
+                the content on their own.
+              </li>
+            </ul>
+            <br>
+            <p>
+              <b>Takeaway #1: Visitor motivations are diverse.</b> Some visitors may come to Birch
+              Aquarium to learn about climate research in the Arctic, while other visitors may come to discover
+              the biological organisms that exists in La Jolla Shores. Not everyone wants to see the same thing, but
+              there's only so much information that Birch can convey in a limited space.
+            </p>
+            <h4 align="middle">Professional Pathways</h4>
+            <a href="img/Pathways.png" data-featherlight="image"><img src="img/Pathways.png"></img></a>
+            <br><br>
+            <p>
+              By giving visitors the option to select a professional persona, they will be able to
+              view exhibit information relevant to their own motives and interests. Each exhibit
+              display will house a ton of information, but when a visitor scans their RFID card, the
+              display will show what they want to see first and foremost.
+            </p>
+            <p>
+              This allows Birch Aquarium to portray as much information as they want while still retaining
+              visitor engagement.
+            </p>
+            <br>
+            <p>
+              <b>Takeaway #2: Touch-screen displays are fun.</b> In addition to scanning cards at
+              displays, each display will have swipe functionality to allow non-linear navigation
+              across text, videos, pictures, and quizzes.
+              Non-linearity further provides user freedom and flexibility by allowing
+              visitors to learn what they want to learn.
+            </p>
+            <a href="img/Users.png" data-featherlight="image"><img src="img/Users.png"></img></a>
+
+            <br><br><br>
+            <p>
+              <b>Takeaway #3: A web-application gets the job done.</b> It can serve as a centralized
+              hub that connects four subsystems: the registration kiosk, the exhibit displays, the
+              administration control center, and the online database.
+            </p>
+            <p>
+              A web-application also allows visitors to access any information they like online.
+            </p>
+            <br>
+            <div id="divider"></div>
+            <h2>Step 2: Information Architecture</h2>
+            <h2>Step 3: Wireframes and Iteration</h2>
+            <h2>Step 4: Prototypes</h2>
+            <h2>Poster</h2>
+            <a href="img/POSTER.png" data-featherlight="image"><img src="img/POSTER.png"></img></a>
           </div>
         </div>
       </div>
@@ -169,6 +289,9 @@
       <br><br><br><br>
 
     </section>
+
+    <script src="assets/javascripts/jquery-1.7.0.min.js"></script>
+    <script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
     </body>
 </html>
