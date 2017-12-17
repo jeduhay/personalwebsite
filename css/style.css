@@ -798,38 +798,35 @@ font header .navbar-default .navbar-nav li a:hover {
 	footer Start
 --*/
 footer {
-  background: #F5F5F5;
-  text-align: center;
-  padding-top: 48px;
-  padding-bottom: 55px;
-}
-footer p {
-  font-size: 13px;
-  line-height: 25px;
-  color: #919191;
-}
-footer a {
-  color: #595959;
-}
-footer .footer-manu {
-  padding-bottom: 25px;
-}
-footer .footer-manu ul {
-  margin: 0px;
-  padding: 0px;
-}
-footer .footer-manu ul li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-footer .footer-manu ul li a {
-  display: inline-block;
-  color: #494949;
-}
-footer .footer-manu ul li a:hover {
-  color: #000;
+  background: black;
+  text-align: left;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-family: Helvetica, sans-serif;
 }
 
+footer h1 {
+  font-size: 14pt;
+  line-height:25px;
+  color: white;
+  font-weight:500;
+}
+
+footer h2 {
+  font-size: 8pt;
+  color: grey;
+  line-height:0px;
+}
+
+footer p {
+  font-size: 8.5pt;
+  color: white;
+}
+
+footer a {
+  font-size: 8.5pt;
+  color: white;
+}
 
 
 
